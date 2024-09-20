@@ -1,0 +1,3 @@
+<div *ngIf="imagen!=null" class="imgAmpliada" (click)="cerrarImg()">
+    <img [src]="imagen"   (click)="$event.stopPropagation(); cerrarImg()"  />
+  </div>

@@ -1,0 +1,15 @@
+<div class="background"></div>
+
+<h1>FORMULA 1</h1>
+
+
+<div class="fotos" >
+
+            <button *ngFor= "let card of cards" (click)="seleccionarImagen(card.ImgUrl)" class="imagen-button">
+
+                <img [src]="card.ImgUrl" width="300" height="200">
+
+            </button>
+</div>
+
+<app-ampliar-img [imagen]="imagenSeleccionada"  (cerrar)="imagenSeleccionada = null"></app-ampliar-img>
