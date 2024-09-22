@@ -8,5 +8,6 @@ export const img_card: Img[] = [
     new Img(4,"img/103.jpg"),
     new Img(5,"img/104.jpg"),
     new Img(6,"img/105.jpg"),
+    new Img(7,"img/102.jpg"),
 
 ]
